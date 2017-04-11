@@ -1,0 +1,7 @@
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'om.theartofdev.edmodo:android-image-cropper:2.3.+'
+}
