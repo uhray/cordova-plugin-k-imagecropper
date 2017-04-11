@@ -19,7 +19,7 @@
 
     <!-- Android -->
     <platform name="android">
-        <framework src="com.theartofdev.edmodo:android-image-cropper:2.3.+" />
+       	<framework src="src/android/plugin.gradle" custom="true" type="gradleReference"/>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="KImageCropper">
                 <param name="android-package" value="in.co.indusnet.plugins.cordova.imagecropper.KImageCropper" />
